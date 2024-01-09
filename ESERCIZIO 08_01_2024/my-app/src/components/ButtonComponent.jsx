@@ -7,10 +7,10 @@ export default function ButtonComponent() {
   )
 } */
 
-function ButtonComponent(props) {
-  console.log(props)
+function ButtonComponent({ testo }) {
+  console.log(testo)
   return (
-    <button type="button">{props}</button>
+    <button type="button">{testo}</button>
   )
 }
 

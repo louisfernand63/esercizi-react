@@ -15,7 +15,7 @@ export const TableComponent = ({ listaUtenti }) => {
                 </tr>
             </thead>
             <tbody>
-                {listaUtenti.map(u => <RowTableComponent u={u} />)}
+                {listaUtenti.map(l => <RowTableComponent l={l} />)}
             </tbody>
         </table>
     )
