@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Card } from "react-bootstrap";
 
-export default function MyFooter() {
-    return (
-        <footer>
-            <p>© 2024 My EpiBooks Footer App. All rights reserved.</p>
-        </footer>
-    )
+function MyFooter() {
+  return (
+    <>
+      <footer>
+        <Card className="text-center">
+          <Card.Body>
+            <Card.Title>
+              <p>&copy; 2024 My EpiBooks Footer App. All rights reserved.</p>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+      </footer>
+    </>
+  );
 }
+
+export default MyFooter;
