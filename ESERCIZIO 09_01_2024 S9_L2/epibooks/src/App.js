@@ -13,9 +13,9 @@ function App() {
       <MyNav />
       <Container className="my-5">
         <Welcome />
-        <AllTheBooks/>
+        <AllTheBooks />
       </Container>
-      <MyFooter /> 
+      <MyFooter />
     </>
   );
 }

@@ -8,7 +8,7 @@ function MyFooter() {
         <Card className="text-center">
           <Card.Body>
             <Card.Title>
-              <p>&copy; 2024 My EpiBooks Footer App. All rights reserved.</p>
+              <p>&copy; 2024 My EpiBooks Footer App Shop. All rights reserved.</p>
             </Card.Title>
           </Card.Body>
         </Card>
