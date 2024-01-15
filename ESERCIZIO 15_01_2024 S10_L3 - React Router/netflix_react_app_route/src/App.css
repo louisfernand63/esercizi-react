@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*****************************/
+/*
+body {
+  margin: 0;
+  background-color: #221f1f;
+}
+
+h2,
+h4,
+footer {
+  color: #f5f5f1;
+}
+
+.icons {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  color: #f5f5f1;
+}
+
+.navbar-nav {
+  font-size: 0.9em;
+}
+
+#kids {
+  color: #f5f5f1;
+  font-size: 0.8em;
+}
+
+.footer-icon {
+  font-size: 1.3em;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #838383;
+}
+
+.footer-links {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #838383;
+}
+
+.footer-links a {
+  color: #838383;
+}
+
+.footer-button {
+  color: #838383;
+  border-color: #838383;
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.col img:hover {
+  transform: scale(1.1);
+}
+
+*/
+
+/**************************************************/
+
+body {
+  margin: 0 !important;
+  background-color: #221f1f !important;
+}
+
+h1,
+h2,
+h4,
+p,
+footer {
+  color: #f5f5f1 !important;
+}
+
+.icons {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  font-size: 18px !important;
+  color: #f5f5f1 !important;
+}
+
+.navbar-nav {
+  font-size: 0.9em !important;
+}
+
+#kids {
+  color: #f5f5f1 !important;
+  font-size: 0.8em !important;
+}
+
+.footer-icon {
+  font-size: 1.3em !important;
+  margin-left: 1% !important;
+  margin-right: 1% !important;
+  color: #838383 !important;
+}
+
+.footer-links {
+  text-align: left !important;
+  font-size: 0.8em !important;
+}
+
+.footer-links p {
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+  color: #838383 !important;
+}
+
+.footer-links a {
+  color: #838383 !important;
+  text-decoration: none !important;
+}
+
+.footer-button {
+  color: #838383 !important;
+  border-color: #838383 !important;
+}
+
+.copyright {
+  color: #838383 !important;
+  font-size: 0.6em !important;
+}
+
+.col img {
+  transition: transform 0.2s !important;
+}
+
+.col img:hover {
+  transform: scale(1.1) !important;
+}
+
+/* GALLERIAUNOCOMP */
+
+.carousel-container {
+  width: 100%;
+  padding-block: 16px 32px;
+  margin: 16px 0px;
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  align-items: center;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel-container::-webkit-scrollbar {
+  height: 14px;
+  width: calc(100% - 48px);
+}
+
+.carousel-container::-webkit-scrollbar-track {
+  background: none;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+  background: none;
+}
+
+.carousel-container::-webkit-scrollbar-track-piece:start {
+  background: none;
+}
+
+.carousel-slide {
+  flex: 1 0 21%;
+  aspect-ratio: 1;
+  flex-flow: column nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  scroll-snap-align: center;
+}
+
+/* @media (max-width: 600px) {
+  .carousel-slide {
+    flex: 1 0 90%;
+  }
+} */
+
+/* PROFILO */
+
+.griglia1 {
+  display: flex;
+}
+
+.foto {
+  width: 35%;
+}
+.foto div {
+  width: 170px;
+  height: 170px;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: relative;
+}
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.foto i {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.testo {
+  width: 60%;
+}
+.testo .primoBlock {
+  justify-content: space-evenly;
+}
+.testo .primoBlock input {
+  background-color: rgb(137, 137, 137);
+}
+.testo .primoBlock ::-webkit-input-placeholder {
+  /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.testo .primoBlock label {
+  color: rgb(137, 137, 137);
+  font-size: 1.5em;
+}
+.testo label {
+  color: rgb(137, 137, 137);
+  font-size: 1.5em;
+}
+.testo .btn1 {
+  width: 70%;
+}
+.testo .btn2 {
+  width: 25%;
+}
+.testo .terzoBlock div {
+  width: 100%;
+}
+.testo .terzoBlock p {
+  font-size: 1em;
+}
+.testo .terzoBlock i {
+  color: rgb(137, 137, 137);
+}
+
+.bottoni {
+  padding: 10px;
+}
+.bottoni button {
+  padding: 10px 30px;
+  font-size: 1.4em;
+}
